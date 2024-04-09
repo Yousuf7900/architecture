@@ -173,7 +173,7 @@ font-weight: 500;
     }
     .facts-achievments{
         flex-direction: column;
-        margin-right: 130px;
+        margin-right: 150px;
         gap: 20px;
     }
     .facts-content{
