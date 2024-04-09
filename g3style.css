@@ -203,4 +203,7 @@ font-weight: 500;
     .teams-img-container{
         gap: 20px;
     }
+    .facts-achievments{
+        flex-wrap: wrap;
+    }
 }
