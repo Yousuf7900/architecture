@@ -103,10 +103,7 @@ main{
     font-size: 1rem;
     font-weight: 400;
 }
-.footer-desc{
-    color: #424242;
-    padding: 40px 410px;
-}
+
 .facts-card-container{
     display: flex;
     justify-content: space-around;
@@ -198,6 +195,10 @@ footer{
     background: #FFF4E7;
     text-align: center;
 }
+.footer-desc{
+    color: #424242;
+    padding: 40px 410px;
+}
 
 
 
@@ -245,6 +246,13 @@ footer{
     .facts-desc{
         padding-right: 20px;
     }
+    footer{
+        width: 100%;
+        margin-bottom: 0;
+    }
+    .footer-desc{
+        padding: 20px 10px;
+    }
 }
 /* Responsive for medium device */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -260,5 +268,11 @@ footer{
     }
     .feature-img img{
         margin-left: 60px;
+    }
+    footer{
+        width: 95%;
+    }
+    .footer-desc{
+        padding: 30px 10px;
     }
 }
